@@ -1,0 +1,130 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="../favicon-32x32.png" type="image/x-icon">
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./dokumentasi.css">
+        <title>Dokumentasi Pengolahan Sertifikat PKL</title>
+    </head>
+    <body oncontextmenu="return false;">   
+        <!-- Copyright 2019 Akshay Kashyap
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License. -->
+
+        <main>
+            <div class="container text-center">
+                <!-- Title -->
+                <figure>
+                    <blockquote class="blockquote">DOKUMENTASI SERTIFIKAT PKL</blockquote>
+                    <figcaption class="blockquote-footer">Isi Data Siswa Dengan Teliti</figcaption>
+                </figure>
+                <!--input form-->
+                <div class="d-flex justify-content-center">
+                    <form class="w-50">
+                        <input type="text" id="id" class="form-control" autocomplete="off" readonly placeholder="ID">
+                        
+                        <input type="text" id="namalengkap" class="form-control" autocomplete="off" placeholder="Nama Lengkap">
+                        <input type="text" id="tempattanggallahir" class="form-control m-0" autocomplete="off" placeholder="Tempat & Tanggal Lahir             
+                E.g Kalimantan, 13/Agustus/20xx">
+                        <div class="row">  
+                            <div class="col">
+                                <input type="text" id="nis" class="form-control " autocomplete="off" placeholder="NIS">
+                            </div>
+                            <div class="col">
+                                <input type="text" id="tempatpkl" class="form-control x-3" autocomplete="off" placeholder="Tempat PKL">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" id="predikat" class="form-control m-0" autocomplete="off" placeholder="Predikat">
+                            </div>
+                            <div class="col">
+                                <input type="text" id="gurupembimbing" class="form-control m-0" autocomplete="off" placeholder="Guru Pembimbing">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--buttons-->
+                <div class="d-flex justify-content-center">
+                    <button class="btn add" id="btn-add">Add</button>
+                    <button class="btn read" id="btn-read">Read</button>
+                    <button class="btn update" id="btn-update">Update</button>
+                    <button class="btn delete" id="btn-delete">Delete</button>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="../certpkl/cert.html" class="btn cert">Buat Sertifikat</a>
+                </div>
+
+                <!-- Table-->
+                <div class="d-flex Tabel-data">
+                    <table class="table table-striped">
+                        <tread>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Nama Lengkap</th>
+                                <th scope="col">Tempat & Tanggal Lahir</th>
+                                <th scope="col">NIS</th>
+                                <th scope="col">Tempat PKL</th>
+                                <th scope="col">Predikat</th>
+                                <th scope="col">Guru Pembimbing</th>
+                                <th scope="col">Edit</th>
+                            </tr>
+                        </tread>
+                        <tbody id="tbody">
+                            <!--<tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Surabaya, 08/02/04</td>
+                                <td>12345678</td>
+                                <td>PT.Sentosa</td>
+                                <td>Sangat Baik</td>
+                                <td>Bu. Melia</td>
+                                <td><i class="fas fa-edit btnedit"></i></td>
+                            </tr>-->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container text-center">
+                <div id="notfound"></div>
+                </div>
+            </div>
+        </main>
+        <!-- Labels -->
+        <div class="w-100 btn btn-success insertmsg">Data Siswa Telah Ditambah</div>
+        <div class="w-100 btn btn-warning updatemsg">Data Siswa Telah Diperbaharui</div>
+        <div class="w-100 btn btn-danger deletemsg">Data Siswa telah dihapus</div>
+        <!-- about -->
+        <footer>
+            <a href="../about.html" class="btn">About</a>
+        </footer>
+        <script type="module" src="./javascript/main.js"></script>
+        <!-- bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+        <!--Dexie JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dexie/3.1.0-alpha.10/dexie.min.js" 
+            integrity="sha512-/PxwD7E2lX8YUilICrI0CP2/VT7OneGBuUP7+uWXAhi6miQgM4VskEqv/G9hr0FhOASbYROhxXZMqjzCvSTU7A==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>    
+    </body>
+</html>

@@ -1,0 +1,26 @@
+/* Bootstrap
+Copyright (c) 2011-2021 Twitter, Inc
+Copyright (c) 2011-2021 The Bootstrap Authors
+License (MIT). See the following link for full https://github.com/twbs/bootstrap/blob/main/LICENSE */
+
+
+body {
+    background-image: linear-gradient(180deg, lavender, honeydew);
+}
+
+/*blockquote*/
+.blockquote {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    padding: 40px 0px 20px 20px;
+    margin: 0rem;
+}
+.blockquote-footer{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    padding: 10px 0px 45px 10px;
+}
+
+.col {
+    padding: 20px 20px 60px 10px;
+}

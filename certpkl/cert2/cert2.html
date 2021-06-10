@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Certificate 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="../../favicon-32x32.png" type="image/x-icon">
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="./cert2.css ">
+    </head>
+    <body oncontextmenu="return false;">      
+         <!-- Certificate Generator
+        Video: https://youtu.be/dag5_oJB7Mg
+        Project: https://github.com/barajasss/yt-certificate-generator
+        Copyright 2020 Baraja Swargiary (https://github.com/barajasss) -->
+
+        <main>
+            <div class= "container text-center">
+                <!-- Title -->
+                <figure>
+                    <blockquote class="blockquote">SERTIFIKAT PRAKTIK KERJA LAPANGAN</blockquote>
+                    <figcaption class="blockquote-footer">Isi Data Sertifikat Dengan Benar</figcaption>
+                  </figure>
+                  <!-- dokumentasi button -->
+                  <a href="../../dokumentasi/dokumentasi.html" class="btn dok2">Dokumentasikan Sertifikat</a>
+
+                <!-- input form -->
+                <div class="d-flex justify-content-center">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" id="namalengkap" class="form-control" autocomplete="off" placeholder="Nama Lengkap">
+                            </div>
+                        </div>
+                        <div class="row">  
+                            <div class="col">
+                                <input type="text" id="tempattanggallahir" class="form-control" autocomplete="off" placeholder="Tempat & Tanggal Lahir">
+                            </div>   
+                            <div class="col">
+                                <input type="text" id="nis" class="form-control " autocomplete="off" placeholder="NIS">
+                            </div>  
+                        </div>             
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" id="tempatpkl" class="form-control" autocomplete="off" placeholder="Tempat PKL">
+                            </div>
+                            <div class="col">
+                                <input type="text" id="predikat" class="form-control " autocomplete="off" placeholder="Predikat">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" id="tanggalbuat" class="form-control " autocomplete="off" placeholder="Tanggal Pembuatan Sertifikat">
+                            </div>
+                            <div class="col">
+                                <input type="text" id="gurupembimbing" class="form-control " autocomplete="off" placeholder="Guru Pembimbing">
+                            </div> 
+                        </div>   
+
+                        <!-- Canvas Display -->
+                        <canvas id="canvas2" class="card-body card2" height="709px" width="1001px"></canvas> <br>
+                        <a href="#" id="downloadbtn2" class="btn btn2" role="button">Download</a>
+                        <a href="https://www.google.com/gmail" class="btn btn3" role="button">Kirim Sertifikat</a>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <!-- about -->
+        <footer>
+            <a href="../../about.html" class="btn">About</a>
+        </footer>
+        <script src="./cert2.js"></script>
+        <!-- bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+    </body>
+</html>

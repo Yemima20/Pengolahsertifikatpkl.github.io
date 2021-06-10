@@ -1,0 +1,28 @@
+/* Bootstrap
+Copyright (c) 2011-2021 Twitter, Inc
+Copyright (c) 2011-2021 The Bootstrap Authors
+License (MIT). See the following link for full https://github.com/twbs/bootstrap/blob/main/LICENSE */
+
+body {
+    background-image: linear-gradient(180deg, #e6e6fa, #f0fff0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 0px 8.4px 0px;
+}
+
+.head1 {
+    padding: 200px 0px 10px 0px;
+}
+
+h5 {
+    padding: 0px 0px 15px 0px;
+}
+.username, .pass {
+    width: 20rem;
+    margin:auto;
+}
+
+.getstarted {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
