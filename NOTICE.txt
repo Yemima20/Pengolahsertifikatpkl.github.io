@@ -1,0 +1,47 @@
+IndexDB_CRUD_Operations
+
+Copyright 2019 Akshay Kashyap
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Some parts of the web app are copied from, modified from, derived from, or inspired by IndexedDB CRUD Operations(https://youtu.be/pcelNF8Ckhk (Akshay Kashyap)).
+Project: https://github.com/akashyap2013/IndexDB_CRUD_Operations.
+License (Apache 2.0) See the following link for full text: https://github.com/akashyap2013/IndexDB_CRUD_Operations/blob/master/LICENSE
+
+Certificate Generator
+        
+Some parts of the web app are copied from, modified from, derived from, or inspired by Certificate Generator (https://youtu.be/dag5_oJB7Mg (Baraja Swargiary)).
+Project: Certificate Generator (https://github.com/barajasss/yt-certificate-generator).
+Copyright 2020 Baraja Swargiary (https://github.com/barajasss).
+
+
+Bootstrap
+        
+Copyright (c) 2011-2021 Twitter, Inc
+Copyright (c) 2011-2021 The Bootstrap Authors
+Some parts of the CSS file in this web app are copied from, modified from, derived from, or inspired by Bootstrap (https://getbootstrap.com/).
+License (MIT). See the following link for full text: https://github.com/twbs/bootstrap/blob/main/LICENSE
+
+
+Font Awesome
+
+Edit Icon in this web app are copied from, or derived by Font Awesome (https://fontawesome.com/).
+Icon Code: https://fontawesome.com/v5.15/icons/edit?style=solid
+Copyright 2018 Font Awesome by Dave Gandy-http://fontawesome.io
+License Code (MIT). See the following link for full text: https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt
+
+
+Login Form With Limited Login Attempts Using JavaScript And HTML (May 2020)
+
+Log in form in this web app are copied from, modified from, derived from, 
+or inspired by (http://talkerscode.com/webtricks/login-form-with-limited-login-attempts-using-javascript-and-html.php).
+© 2021 All Rights Reserved To TalkersCode.com
